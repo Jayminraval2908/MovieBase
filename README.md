@@ -1,12 +1,39 @@
-# React + Vite
+# 🎬 MovieBase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MovieBase is a simple and elegant React web application that allows users to browse movies, search for favorites, and save them to a personal watchlist. It uses [TMDB (The Movie Database) API](https://developer.themoviedb.org/) to fetch movie data.
 
-Currently, two official plugins are available:
+---
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live demo here: [MovieBase Live](https://movie-base-murex.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🚀 Features
+
+- 🔍 Search for movies by name
+- 🎞️ Display movie posters, titles, and descriptions
+- 📄 View details for each movie
+- 📝 Add or remove movies from the watchlist
+- 💡 Responsive design using Tailwind CSS
+- ⚛️ Built with React and React Router
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- React.js
+- React Router
+- Tailwind CSS
+- TMDB API
+
+---
+
+## 🔧 Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/moviebase.git
+cd moviebase
