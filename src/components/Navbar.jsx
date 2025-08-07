@@ -11,7 +11,6 @@ function Navbar() {
           <Link to="/">MovieBase</Link>
         </h1>
 
-        {/* Hamburger Button */}
         <button
           className="md:hidden text-white focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
@@ -41,14 +40,14 @@ function Navbar() {
           </svg>
         </button>
 
-        {/* Desktop Links */}
+        
         <div className="hidden md:flex space-x-6 text-2xl font-bold">
           <Link to="/" className="hover:text-blue-500">Home</Link>
           <Link to="/watchlist" className="hover:text-blue-500">Watchlist</Link>
         </div>
       </div>
 
-      {/* Mobile Links */}
+      
       {isOpen && (
         <div className="md:hidden mt-4 flex flex-col space-y-4 text-xl font-semibold">
           <Link to="/" onClick={() => setIsOpen(false)} className="hover:text-blue-500">Home</Link>
@@ -60,3 +59,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
